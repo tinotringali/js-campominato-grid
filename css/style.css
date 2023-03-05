@@ -45,6 +45,28 @@ main{
     align-content: flex-start;
 }
 
+.cell-easy,.cell-medium,.cell-hard{
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cell-easy{
+    width: calc(100% / 10);
+    height: calc(100% / 10);
+}
+
+.cell-medium{
+    width: calc(100% / 9);
+    height: calc(100% / 9);;
+}
+
+.cell-hard{
+    width: calc(100% / 7);
+    height: calc(100% / 7);
+}
+
 /* footer */
 
 footer{
