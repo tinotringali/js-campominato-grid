@@ -14,6 +14,9 @@
     justify-content: space-between;
 }
 
+.change-color{
+    color: blue;
+}
 
  /* header */
  
@@ -35,6 +38,7 @@ main{
     justify-content: center;
     align-items: center;
     padding: 30px;
+    height: 550px;
     background-color: #7fffd4;
 }
 
@@ -43,6 +47,7 @@ main{
     width: 500px;
     flex-wrap: wrap;
     align-content: flex-start;
+    display: none;
 }
 
 .cell-easy,.cell-medium,.cell-hard{
@@ -71,4 +76,8 @@ main{
 
 footer{
     padding: 30px;
+}
+
+.show{
+    display: flex;
 }
